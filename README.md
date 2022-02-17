@@ -19,17 +19,17 @@ Example: TWITCH_CHANNEL = 'xqcow'
 
 There will be a section where you can define commands. There are three different types of commands you can use:
 ###### HoldAndReleaseKey()
->> This will let you define a key to hold and a time to hold it! Follow this syntax:
->> HoldAndReleaseKey(W, 2) ## This will hold the W key for 2 second
->> You can find a list of useable keys in the Twitch_KeyCommands.py script!
+> This will let you define a key to hold and a time to hold it! Follow this syntax:
+> HoldAndReleaseKey(W, 2) ## This will hold the W key for 2 second
+> You can find a list of useable keys in the Twitch_KeyCommands.py script!
 
 ###### HoldKey()
->> This will hold the key indefinitely. Define the key only
->> Example: HoldKey(w) ## This will hold the W key
+> This will hold the key indefinitely. Define the key only
+> Example: HoldKey(w) ## This will hold the W key
 
 ######ReleaseKey
->> This will Release any previously held Key. Use in conjunction with the HoldKey() function
->> Example: ReleaseKey(w) ## This will release the W key
+> This will Release any previously held Key. Use in conjunction with the HoldKey() function
+> Example: ReleaseKey(w) ## This will release the W key
 
 ### Twitch_KeyCommands.py
 This script holds all the available key commands you can program. I will update this with the full keyboard soon. 
