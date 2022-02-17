@@ -1,6 +1,9 @@
 # Twitch-Plays-Code
-A Twitch Plays Code. Connect to your channel and play! 
+A Twitch Plays Code. Connect to your channel and play! Coded in Python!
 
+In order to get started. Open the "Twitch_Control.py" script in an editor, define your channel and allowed controls, and save! Then run this file! This is the only file you need to run. Be sure all three scripts are in the same directory!
+
+(You may need to install the dependencies!!!) --> See the package imports. 
 _____________________
 # Code Structure
 
