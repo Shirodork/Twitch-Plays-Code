@@ -178,32 +178,4 @@ while True:
             else:
                 print("HEY DUM DUM. INCREASE MAX WORKERS. YOU GOT TOO MANY MESSAGES COMING IN!")    # Tell strimmer to add more workers to code, otherwise there will be missed messages
 
-
-
-    '''
-    # End script (WIP BROKEN)
-    if keyboard.is_pressed('space'):
-        exit()
-
-    # Gather Messages
-    new_messages = t.twitch_get_messages()
-
-    # Checks to see if there are messages
-    if not new_messages:
-        # If theres no messages
-        continue
-    else:
-        # for every message, split into username and message vars
-        for message in new_messages:
-            msg = message['message'].lower()            # Filter Message. Convert to lowercase
-            username = message['username'].lower()      # Filter Username. Convert to lowercase
-
-            # Debug - Print
-            print(username + ": " + msg)
-
-            press_buttons(msg)
-
-    '''
-
-
     
